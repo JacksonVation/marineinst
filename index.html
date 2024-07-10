@@ -869,9 +869,25 @@
         <h2 class="subtitle has-text-centered">
           (a) Image storytelling based on MarineInst. (b) Marine text-to-image synthesis based on stable diffusion model (<i>stable-diffusion-v1-5</i>).
         </h2>
+        <img src="static/images/text2img_supp.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          We report the marine text-to-image synthesis results under two settings: a) without fine-tuning and b) with fine-tuning on our MarineInst20M dataset. The reference images from the required marine species have also been provided for the readers to better compare the synthesis performance. Best viewed in color. <code>Results shown are not cherry picked.</code>
+        </h2>
+        <img src="static/images/img_storytelling.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          We optimize our MarineInst to generate comprehensive and detailed semantic instance captions for each generated instance mask. Then we utilize ChatGPT-3.5 to generate the merged caption as the image-level caption based on the generated instance captions. GPT-4V is included for comparison, where texts in <body><span style="color: green;">green</span></body> are correct responses and <body><span style="color: red;">red</span></body> are wrong responses.
+        </h2>
         <img src="static/images/instruction.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
             The results of instruction-following instance understanding and segmentation. Texts in green are correct responses and red are wrong responses.
+        </h2>
+        <img src="static/images/instruction_understanding.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          The instruction-following instance understanding results of MarineInst under two settings: 1) <i>single mask</i> and 2) <i>multiple masks with assigned mask IDs</i>. The texts in <body><span style="color: green;">green</span></body> are correct responses and the texts in <body><span style="color: red;">red</span></body> are wrong responses.
+        </h2>
+        <img src="static/images/hallucination.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          There are still some hallucinations in the generated semantic captions for the instance mask. Best viewed in color.
         </h2>
       </div>
     </div>
