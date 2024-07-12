@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <div style="position: sticky;top: 0;z-index: 10000;background: #fff;color:blue;">
-    <div class="row mx-0 inline_nav_wrapper header-shadow">
-      <div class="col-12 px-0 inline_nav cata-sub-nav" id="filters" style="margin-top: 0.2rem;"> 
-        <span class="text-right works-filter flex-grow-1 w-sm-100 my-2 showAll filter-item" data-filter="all">Abstract</span>
-        <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="framework-overview">The Framework Overview</span>
-        <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="dataset">Dataset</span>
-        <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="qualitative-results">Qualitative Results</span>
-        <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="downstream-tasks">Downstream Tasks</span>
-        <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="citation">Citation</span>
-        <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="acknowledgement">Acknowledgement</span>
-      </div>
-    </div>
-  </div>
+<!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
@@ -56,9 +43,22 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script src="static/js/scroller.js"></script>
 </head>
 <body>
-
+    <div style="position: sticky;top: 0;z-index: 10000;background: #fff;color:blue;">
+      <div class="row mx-0 inline_nav_wrapper header-shadow">
+        <div class="col-12 px-0 inline_nav cata-sub-nav" id="filters" style="margin-top: 0.2rem;"> 
+          <span class="text-right works-filter flex-grow-1 w-sm-100 my-2 showAll filter-item" data-filter="all">Abstract</span>
+          <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="framework-overview">The Framework Overview</span>
+          <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="dataset">Dataset</span>
+          <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="qualitative-results">Qualitative Results</span>
+          <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="downstream-tasks">Downstream Tasks</span>
+          <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="citation">Citation</span>
+          <span class="works-filter flex-grow-1 w-sm-100 my-2 filter-item nav-item-filter active-filter" data-filter="acknowledgement">Acknowledgement</span>
+        </div>
+      </div>
+    </div>
 
   <section class="hero">
     <div class="hero-body">
