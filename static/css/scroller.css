@@ -1,0 +1,64 @@
+.works-filter {
+  display: inline-block;
+  text-decoration: none;
+  transition: all .35s ease;
+}
+
+.works-filter:hover {
+  cursor: pointer;
+  /* text-decoration: underline; */
+  transition: all .35s ease;
+}
+
+.works-filter-active {
+  /* text-decoration: underline; */
+  font-weight: 600;
+  text-decoration: underline;
+  transition: all .35s ease;
+}
+
+.works-filter-active::before {
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: none;
+  transition: all .35s ease;
+}
+
+.workItem {
+  display: none;
+}
+
+.show-workItem {
+  display: block;
+  transition: all .35s ease;
+}
+
+.filter-item {
+  padding-right: 2rem;
+}
+
+.filter-item:hover {
+  font-weight: 600;
+}
+
+.inline_nav_wrapper {
+  position: relative;
+  height: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.inline_nav {
+  margin-top: 25px;
+  height: 80px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.title {
+  color: grey;
+  font-weight: bold;
+}
